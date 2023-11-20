@@ -18,7 +18,7 @@ public class ForgotPasswordTest extends BaseTest {
     String baseURL = "https://opensource-demo.orangehrmlive.com/"; // set base url
 
     @Before
-    public void setUP(){openBrowser(baseURL);}
+    public void setUp(){openBrowser(baseURL);}
 
     @Test
 
