@@ -1,3 +1,10 @@
+/**
+ *4. Write down the following test into ‘ForgotPasswordTest’ class
+ * 1. userShouldNavigateToForgotPasswordPageSuccessfully
+ * * click on the ‘Forgot your password’ link
+ * * Verify the text ‘Reset Password’
+ */
+
 package testsuite;
 
 import browserfactory.BaseTest;
@@ -16,6 +23,7 @@ public class ForgotPasswordTest extends BaseTest {
     @Test
 
     public void userShouldNavigateToForgotPasswordPageSuccessfully(){
+
         driver.findElement(By.xpath("//p[text() = 'Forgot your password? ']")).click();
         String expected = "Reset Password";
         String actual = driver.findElement(By.xpath("//h6[text() = 'Reset Password']")).getText();
