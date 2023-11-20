@@ -10,22 +10,10 @@ public class LoginTest extends BaseTest {
     String baseURL = "https://opensource-demo.orangehrmlive.com/"; // set base url
 
     @Before
-    public void setUP(){openBrowser(baseURL);}
+    public void setUp(){openBrowser(baseURL);}
 
     @Test
-    public void nameHere1(){
 
-
-    }
-
-
-
-    @Test
-    public void nameHere2(){
-
-
-
-    }
 
     @After
     public void tearDown(){closeBrowser();}
